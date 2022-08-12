@@ -29,7 +29,7 @@ services:
       type: pserv
       envVarKey: MYSQL_PASSWORD
 - type: pserv
-  name: mbh-mysql
+  name: mysql
   repo: https://github.com/rhickey94/mysql.git
   env: docker
   plan: starter
